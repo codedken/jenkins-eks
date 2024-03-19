@@ -6,12 +6,12 @@ pipeline {
         region = "us-east-1"
     }
 
-    // stages{
-    //     stage("Checkout SCM"){
-    //         steps{
-    //             script{
-    //             }
-    //         }
-    //     }
-    // }
+    stages{
+        stage("Checkout SCM"){
+            steps{
+                script{
+                }
+            }
+        }
+    }
 }
