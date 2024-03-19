@@ -24,5 +24,15 @@ pipeline {
                 }
             }
         }
+
+        stage("View the planned changes for the resources to be effected"){
+            steps{
+                script{
+                    dir('eks'){
+                        sh 'terraform plan'
+                    }
+                }
+            }
+        }
     }
 }
