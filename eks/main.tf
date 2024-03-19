@@ -44,7 +44,7 @@ module "eks" {
       max_size     = 3
       desired_size = 2
 
-      instance_type = [var.instance_type]
+      instance_type = ["t2.medium"]
     }
   }
 

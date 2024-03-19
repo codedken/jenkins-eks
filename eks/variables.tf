@@ -13,10 +13,6 @@ variable "vpc_public_subnets" {
   type        = list(string)
 }
 
-variable "instance_type" {
-  description = "Instance type"
-  type        = string
-}
 
 variable "cluster_name" {
   description = "The name of the eks cluster"
