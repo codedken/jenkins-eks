@@ -1,0 +1,4 @@
+setup-config/.terraform/*
+setup-config/.terraform.lock.hcl
+eks/.terraform/*
+eks/.terraform.lock.hcl
